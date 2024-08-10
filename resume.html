@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moussa TAMBA</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+    <div class="header">
+        <div class="text-center">
+            <h1 class="display-4">Moussa TAMBA</h1>
+            <h3>Analyste Concepteur Développeur FullStack</h3>
+        </div>
+    </div>
+    <nav class="navbar-expand-md border-bottom mb-3">
+        <div class="container">
+            <ul class="nav justify-content-center">
+                <li class="nav item">
+                    <a class="nav-link text-secondary" href="index.html">Home</a>
+                </li>
+                <li class="nav item">
+                    <a class="nav-link text-secondary" href="portfolio.html">Project</a>
+                </li>
+                <li class="nav item">
+                    <a class="nav-link text-secondary" href="resume.html">Mon CV</a>
+                </li>
+                <li class="nav item">
+                    <a class="nav-link text-secondary" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+<body>
+    <div class="container mt-5">
+        <div class="text-center">
+            <h2>Mon CV</h2>
+            <hr>
+            <button class="btn btn-primary mb-4" id="downloadResume">Telecharger CV</button>
+        </div>
+    </div>
+     <!-- Accordions -->
+     <div class="accordion" id="resumeAccordion">
+        <!-- Experience Section -->
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Experience
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#resumeAccordion">
+                <div class="card-body">
+                    <h4>Concepteur Developpeur FullStack</h4>
+                    <p><strong>Diggi-Tech-Center</strong> | Dakar,Sénégal - Mars 2023 à nos jours</p>
+                    <ul>
+                        <ol><strong>Saytou</strong> : systéme de suivi et évaluation de project</ol>
+                        <li>Conception des diagrammes use case, diagramme de classe et de séquence.</li>
+                        <li>Implémentation des fonctionnalités gérer un project, gérer la communication gérer la documentation.</li>
+                       
+                    </ul>
+                    <ul>
+                        <ol><strong>Siggi</strong> : systéme de gestion de project</ol>
+                        <li>Implémentation de la fonctionnalité suivi de l'avancement des projects </li>
+                    </ul>
+                    <h4>Concepteur Developpeur FullStack</h4>
+                    <p><strong>Global Tech Ingenierie</strong> | Dakar,Sénégal - Janvier 2022 - Mars 2023 </p>
+                    <ul>
+                        <ol><strong>Banking Digital</strong> : systéme de gestion bancaire projectpersonnel</ol>
+                        <li>Conception et developpement de la partie backend</li>
+                        <li>Developpement du frontend avec Angular</li>
+                    
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+         <!-- Education Section -->
+         <div class="resume-section">
+            <h3>Education</h3>
+            <div class="resume-item">
+                <h4>Bachelor of Science in Computer Science</h4>
+                <p><strong>University of Somewhere</strong> - September 2014 to May 2018</p>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="resume-section">
+            <h3>Skills</h3>
+            <ul>
+                <li>Programming Languages: JavaScript, Python, Java</li>
+                <li>Web Technologies: HTML, CSS, React, Angular</li>
+                <li>Tools and Platforms: Git, Docker, AWS</li>
+            </ul>
+        </div>
+
+        <!-- Certifications Section --> 
+        <div class="resume-section">
+            <h3>Certifications</h3>
+            <div class="resume-item">
+                <p><strong>Certified ScrumMaster (CSM)</strong> - Scrum Alliance, 2020</p>
+            </div>
+            <div class="resume-item">
+                <p><strong>Microsoft Certified: Azure Fundamentals</strong> - Microsoft, 2019</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
